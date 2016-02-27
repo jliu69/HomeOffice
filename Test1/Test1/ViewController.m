@@ -2,11 +2,9 @@
 //  ViewController.m
 //  Test1
 //
-//  Created by Johnson Liu on 2/25/16.
-//  Copyright © 2016 Home Office. All rights reserved.
-//
 
 #import "ViewController.h"
+#import "DataSource.h"
 #import "BlurViewController.h"
 #import "ParallaxViewController.h"
 
@@ -31,7 +29,8 @@ NSString *kCell = @"CellId";
     [super viewDidLoad];
     self.title = @"Home";
     
-    self.rowsArray = [NSArray arrayWithObjects:@"Blurred Image", @"Parallax Effect", nil];
+    DataSource *source = [DataSource new];
+    self.rowsArray = [source tasksList];
 }
 
 - (void)didReceiveMemoryWarning {

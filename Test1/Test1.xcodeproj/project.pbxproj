@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D13E5301C82151700FF2138 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D13E52F1C82151700FF2138 /* DataSource.m */; settings = {ASSET_TAGS = (); }; };
+		9D13E5321C82155E00FF2138 /* Source.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D13E5311C82155E00FF2138 /* Source.plist */; settings = {ASSET_TAGS = (); }; };
 		9D9D78721C7F72C400D99FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D78711C7F72C400D99FF5 /* main.m */; };
 		9D9D78751C7F72C400D99FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D78741C7F72C400D99FF5 /* AppDelegate.m */; };
 		9D9D78781C7F72C400D99FF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D78771C7F72C400D99FF5 /* ViewController.m */; };
@@ -39,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D13E52E1C82151700FF2138 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSource.h; path = Helpers/DataSource.h; sourceTree = "<group>"; };
+		9D13E52F1C82151700FF2138 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSource.m; path = Helpers/DataSource.m; sourceTree = "<group>"; };
+		9D13E5311C82155E00FF2138 /* Source.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Source.plist; sourceTree = "<group>"; };
 		9D9D786D1C7F72C400D99FF5 /* Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9D78711C7F72C400D99FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D9D78731C7F72C400D99FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D13E52D1C8214CE00FF2138 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9D13E52E1C82151700FF2138 /* DataSource.h */,
+				9D13E52F1C82151700FF2138 /* DataSource.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		9D9D78641C7F72C400D99FF5 = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +128,12 @@
 				9D9D78791C7F72C500D99FF5 /* Main.storyboard */,
 				9D9D78871C7F733C00D99FF5 /* Blur */,
 				9D9D78881C7F734200D99FF5 /* Parallax */,
+				9D13E52D1C8214CE00FF2138 /* Helpers */,
 				9D9D787C1C7F72C500D99FF5 /* Assets.xcassets */,
 				9D9D787E1C7F72C500D99FF5 /* LaunchScreen.storyboard */,
 				9D9D78811C7F72C500D99FF5 /* Info.plist */,
 				9D9D78701C7F72C400D99FF5 /* Supporting Files */,
+				9D13E5311C82155E00FF2138 /* Source.plist */,
 			);
 			path = Test1;
 			sourceTree = "<group>";
@@ -250,6 +266,7 @@
 				9D9D78BB1C7F79A900D99FF5 /* ParallaxCell.xib in Resources */,
 				9D9D788D1C7F783F00D99FF5 /* creek_image.jpg in Resources */,
 				9D9D78AB1C7F784F00D99FF5 /* 13@2x.png in Resources */,
+				9D13E5321C82155E00FF2138 /* Source.plist in Resources */,
 				9D9D789E1C7F784F00D99FF5 /* 0@2x.png in Resources */,
 				9D9D788E1C7F783F00D99FF5 /* park _image.jpg in Resources */,
 				9D9D78B41C7F791700D99FF5 /* Blur.storyboard in Resources */,
@@ -280,6 +297,7 @@
 				9D9D78751C7F72C400D99FF5 /* AppDelegate.m in Sources */,
 				9D9D78B21C7F790800D99FF5 /* ParallaxViewController.m in Sources */,
 				9D9D78721C7F72C400D99FF5 /* main.m in Sources */,
+				9D13E5301C82151700FF2138 /* DataSource.m in Sources */,
 				9D9D78BA1C7F79A900D99FF5 /* ParallaxCell.m in Sources */,
 				9D9D78AF1C7F78E300D99FF5 /* BlurViewController.m in Sources */,
 			);
